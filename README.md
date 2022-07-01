@@ -70,6 +70,8 @@ Use `ninja` to compile and run the supported application in `qemu`.
 ninja -C build run
 ```
 
+Use `control+a` then `x` to quit `qemu` emulator.
+
 ### `compile_commands.json`
 
 `cmake` will generate the `compile_commands.json` file in the `build` directory, use `ln` to symlink it to the project root directory.
